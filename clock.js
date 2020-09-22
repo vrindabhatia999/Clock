@@ -79,7 +79,7 @@ function fync1(){
     document.getElementById("vdiv").style.backgroundImage='url(summer.jpg)';
 }
 function remove(){
-    document.getElementById("vdiv").style.backgroundColor='#ffcccb ';
+    document.getElementById("vdiv").style.boxShadow='5px 5px 5px #ffcccb ';
 }
 
 

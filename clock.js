@@ -70,4 +70,10 @@ function change(color){
 function change2(color){
     document.getElementById('clock').style.color=color;
 }
- 
+
+//event listeners
+document.getElementById("my").addEventListener("mouseover",fync1);
+
+function fync1(){
+    document.getElementById("vdiv").style.backgroundImage='url(summer.jpg)';
+}

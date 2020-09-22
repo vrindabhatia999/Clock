@@ -72,8 +72,14 @@ function change2(color){
 }
 
 //event listeners
-document.getElementById("my").addEventListener("mouseover",fync1);
+document.getElementById("my").addEventListener("click",fync1);
+
 
 function fync1(){
     document.getElementById("vdiv").style.backgroundImage='url(summer.jpg)';
 }
+function remove(){
+    document.getElementById("vdiv").style.backgroundColor='#ffcccb ';
+}
+
+
